@@ -20,8 +20,6 @@ namespace MyStoreWPFApp
         public MainWindow()
         {
             InitializeComponent();
-            var context = new MyStoreContext();
-            List<Product> product = context.Products.ToList();
         }
     }
 }

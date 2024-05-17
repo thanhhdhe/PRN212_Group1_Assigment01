@@ -9,6 +9,7 @@ namespace MyStoreWPFApp
     /// </summary>
     public partial class App : Application
     {
+
     }
 
 }
