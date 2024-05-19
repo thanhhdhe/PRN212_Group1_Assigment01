@@ -12,3 +12,18 @@ D:\C# workspace\PRN221_Group1_Assigment01\BusinessObject\obj\Debug\net6.0\refint
 D:\C# workspace\PRN221_Group1_Assigment01\BusinessObject\obj\Debug\net6.0\BusinessObject.pdb
 D:\C# workspace\PRN221_Group1_Assigment01\BusinessObject\obj\Debug\net6.0\BusinessObject.genruntimeconfig.cache
 D:\C# workspace\PRN221_Group1_Assigment01\BusinessObject\obj\Debug\net6.0\ref\BusinessObject.dll
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\BusinessObject\bin\Debug\net6.0\BusinessObject.deps.json
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\BusinessObject\bin\Debug\net6.0\BusinessObject.runtimeconfig.json
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\BusinessObject\bin\Debug\net6.0\BusinessObject.dll
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\BusinessObject\bin\Debug\net6.0\BusinessObject.pdb
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\BusinessObject\obj\Debug\net6.0\BusinessObject.csproj.AssemblyReference.cache
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\BusinessObject\obj\Debug\net6.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\BusinessObject\obj\Debug\net6.0\BusinessObject.AssemblyInfoInputs.cache
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\BusinessObject\obj\Debug\net6.0\BusinessObject.AssemblyInfo.cs
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\BusinessObject\obj\Debug\net6.0\BusinessObject.csproj.CoreCompileInputs.cache
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\BusinessObject\obj\Debug\net6.0\BusinessObject.sourcelink.json
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\BusinessObject\obj\Debug\net6.0\BusinessObject.dll
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\BusinessObject\obj\Debug\net6.0\refint\BusinessObject.dll
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\BusinessObject\obj\Debug\net6.0\BusinessObject.pdb
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\BusinessObject\obj\Debug\net6.0\BusinessObject.genruntimeconfig.cache
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\BusinessObject\obj\Debug\net6.0\ref\BusinessObject.dll

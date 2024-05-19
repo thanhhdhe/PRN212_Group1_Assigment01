@@ -17,7 +17,7 @@
                 <TextBlock Text="End Date:" VerticalAlignment="Center" Margin="5"/>
                 <DatePicker x:Name="EndDatePicker" Width="150" Margin="5"/>
                 <Button Content="Search" Width="100" Margin="5" Click="SearchOrders_Click"/>
-            <Button Content="Add New Order" Width="100" Margin="59,5,5,5"/>
+            <Button  Content="Add New Order" Width="100" Margin="59,5,5,5"/>
             </StackPanel>
             <DataGrid x:Name="OrdersDataGrid" AutoGenerateColumns="False" Margin="10" SelectionMode="Single" IsReadOnly="True">
                 <DataGrid.Columns>

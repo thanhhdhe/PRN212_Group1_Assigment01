@@ -5,21 +5,85 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MyStoreWPFApp"
         mc:Ignorable="d"
-        Title="Admin Dashboard" Height="450" Width="1000">
+        Title="Admin Dashboard" Height="450" Width="1000"
+        Icon="Images/logo.ico"
+        Background="Transparent">
+    <Window.Resources>
+        <BitmapImage x:Key="LogoIcon" UriSource="Images/logo.png"/>
+        <BitmapImage x:Key="HomeIcon" UriSource="Images/home.png"/>
+        <BitmapImage x:Key="ProductIcon" UriSource="Images/product.png"/>
+        <BitmapImage x:Key="OrderIcon" UriSource="Images/invoice.png"/>
+        <BitmapImage x:Key="LogIcon" UriSource="Images/log.png"/>
+        <BitmapImage x:Key="MemberIcon" UriSource="Images/member.png"/>
+        <BitmapImage x:Key="UserIcon" UriSource="Images/user.png"/>
+    </Window.Resources>
+
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-
-        <StackPanel Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Left">
-            <Button Content="Home" Width="180" Margin="10" Click="NavigateToHome"/>
-            <Button Content="Manage Products" Width="180" Margin="10" Click="NavigateToProducts"/>
-            <Button Content="Manage Orders" Width="180" Margin="10" Click="NavigateToOrders"/>
-            <Button Content="Manage Staff" Width="180" Margin="10" Click="NavigateToStaff"/>
-            <Button Content="Logout" Width="180" Margin="10" Click="LogoutButton_Click"/>
-        </StackPanel>
-
-        <Frame x:Name="MainFrame" Grid.Column="1" NavigationUIVisibility="Hidden"/>
+        <Border Background="White" Grid.ColumnSpan="2"/>
+        <Grid Grid.Column="0" Margin="10">
+            <Border Background="#f2f2f2" Width="Auto" CornerRadius="10">
+                <Grid>
+                    <StackPanel Width="Auto" Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="13">
+                        <WrapPanel HorizontalAlignment="Center" Margin="0,20">
+                            <Image Source="{StaticResource LogoIcon}" Width="30" Height="30"></Image>
+                            <TextBlock Text="Welcome to MyStore" FontWeight="Bold" Margin="10"/>
+                        </WrapPanel>
+                        <Button Style="{DynamicResource btnNavigation}" Click="NavigateToHome" BorderThickness="0" Background="Transparent"
+    HorizontalContentAlignment="Left">
+                            <WrapPanel Width="Auto" Margin="10,0">
+                                <Image Source="{StaticResource HomeIcon}" Width="20" Height="20"/>
+                                <TextBlock FontWeight="DemiBold" Text="Home" Margin="10" Width="Auto"/>
+                            </WrapPanel>
+                        </Button>
+                        <Button Style="{DynamicResource btnNavigation}" Click="NavigateToProducts" BorderThickness="0" Background="Transparent"
+    HorizontalContentAlignment="Left">
+                            <WrapPanel Width="Auto" Margin="10,0">
+                                <Image Source="{StaticResource ProductIcon}" Width="20" Height="20"/>
+                                <TextBlock FontWeight="DemiBold" Text="Manage Products" Margin="10" Width="Auto"/>
+                            </WrapPanel>
+                        </Button>
+                        <Button Style="{DynamicResource btnNavigation}" Click="NavigateToOrders" BorderThickness="0" Background="Transparent"
+    HorizontalContentAlignment="Left">
+                            <WrapPanel Width="Auto" Margin="10,0">
+                                <Image Source="{StaticResource OrderIcon}" Width="20" Height="20"/>
+                                <TextBlock FontWeight="DemiBold" Text="Manage Orders" Margin="10" Width="Auto"/>
+                            </WrapPanel>
+                        </Button>
+                        <Button Style="{DynamicResource btnNavigation}" Click="NavigateToStaff" BorderThickness="0" Background="Transparent"
+    HorizontalContentAlignment="Left">
+                            <WrapPanel Width="Auto" Margin="10,0">
+                                <Image Source="{StaticResource MemberIcon}" Width="20" Height="20"/>
+                                <TextBlock FontWeight="DemiBold" Text="Manage Staffs" Margin="10" Width="Auto"/>
+                            </WrapPanel>
+                        </Button>
+                        <Button Style="{DynamicResource btnNavigation}" Click="NavigateToStaff" BorderThickness="0" Background="Transparent"
+HorizontalContentAlignment="Left">
+                            <WrapPanel Width="Auto" Margin="10,0">
+                                <Image Source="{StaticResource UserIcon}" Width="20" Height="20"/>
+                                <TextBlock FontWeight="DemiBold" Text="Update Profile" Margin="10" Width="Auto"/>
+                            </WrapPanel>
+                        </Button>
+                    </StackPanel>
+                    <StackPanel Grid.Column="0" Margin="10" VerticalAlignment="Bottom">
+                        <Button Style="{DynamicResource btnNavigation}" Click="LogoutButton_Click" BorderThickness="0" Background="Transparent"
+HorizontalContentAlignment="Left">
+                            <WrapPanel Width="Auto" Margin="10,0">
+                                <Image Source="{StaticResource LogIcon}" Width="20" Height="20"/>
+                                <TextBlock FontWeight="DemiBold" Text="Log Out" Margin="10" Width="Auto"/>
+                            </WrapPanel>
+                        </Button>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </Grid>
+        <Grid Grid.Column="1" Margin="10">
+            <Border Background="#f2f2f2" Width="Auto" CornerRadius="10">
+                <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+            </Border>
+        </Grid>
     </Grid>
 </Window>

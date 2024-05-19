@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C# workspace\\PRN221_Group1_Assigment01\\DataAccess\\DataAccess.csproj": {}
+    "E:\\Learn\\Project\\PRN212\\PRN221_Group1_Assigment01\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\C# workspace\\PRN221_Group1_Assigment01\\BusinessObject\\BusinessObject.csproj": {
+    "E:\\Learn\\Project\\PRN212\\PRN221_Group1_Assigment01\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# workspace\\PRN221_Group1_Assigment01\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "E:\\Learn\\Project\\PRN212\\PRN221_Group1_Assigment01\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "D:\\C# workspace\\PRN221_Group1_Assigment01\\BusinessObject\\BusinessObject.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\C# workspace\\PRN221_Group1_Assigment01\\BusinessObject\\obj\\",
+        "projectPath": "E:\\Learn\\Project\\PRN212\\PRN221_Group1_Assigment01\\BusinessObject\\BusinessObject.csproj",
+        "packagesPath": "C:\\Users\\hadan\\.nuget\\packages\\",
+        "outputPath": "E:\\Learn\\Project\\PRN212\\PRN221_Group1_Assigment01\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\hadan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -78,30 +79,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C# workspace\\PRN221_Group1_Assigment01\\DataAccess\\DataAccess.csproj": {
+    "E:\\Learn\\Project\\PRN212\\PRN221_Group1_Assigment01\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# workspace\\PRN221_Group1_Assigment01\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "E:\\Learn\\Project\\PRN212\\PRN221_Group1_Assigment01\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\C# workspace\\PRN221_Group1_Assigment01\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\C# workspace\\PRN221_Group1_Assigment01\\DataAccess\\obj\\",
+        "projectPath": "E:\\Learn\\Project\\PRN212\\PRN221_Group1_Assigment01\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\hadan\\.nuget\\packages\\",
+        "outputPath": "E:\\Learn\\Project\\PRN212\\PRN221_Group1_Assigment01\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\hadan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -115,8 +126,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\C# workspace\\PRN221_Group1_Assigment01\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "D:\\C# workspace\\PRN221_Group1_Assigment01\\BusinessObject\\BusinessObject.csproj"
+              "E:\\Learn\\Project\\PRN212\\PRN221_Group1_Assigment01\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "E:\\Learn\\Project\\PRN212\\PRN221_Group1_Assigment01\\BusinessObject\\BusinessObject.csproj"
               }
             }
           }
@@ -125,6 +136,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -141,12 +157,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

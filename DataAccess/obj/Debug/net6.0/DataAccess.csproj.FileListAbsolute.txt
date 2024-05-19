@@ -13,3 +13,19 @@ D:\C# workspace\PRN221_Group1_Assigment01\DataAccess\obj\Debug\net6.0\DataAccess
 D:\C# workspace\PRN221_Group1_Assigment01\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
 D:\C# workspace\PRN221_Group1_Assigment01\DataAccess\obj\Debug\net6.0\DataAccess.pdb
 D:\C# workspace\PRN221_Group1_Assigment01\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\DataAccess\bin\Debug\net6.0\DataAccess.dll
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\DataAccess\bin\Debug\net6.0\BusinessObject.dll
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\DataAccess\bin\Debug\net6.0\BusinessObject.pdb
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\DataAccess\obj\Debug\net6.0\DataAccess.sourcelink.json
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\DataAccess\obj\Debug\net6.0\DataAccess.csproj.Up2Date
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\DataAccess\obj\Debug\net6.0\DataAccess.dll
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+E:\Learn\Project\PRN212\PRN221_Group1_Assigment01\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
